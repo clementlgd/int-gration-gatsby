@@ -4,7 +4,7 @@
 
 1.  **Commencer à développer**
 
-    Rends-toi dans le répertoire du site et commence le développement !
+    Se rendre dans le répertoire du site.
 
     ```shell
     cd test-integration-front/
@@ -12,7 +12,7 @@
     gatsby develop
     ```
     
-    Tu peux aussi utiliser la commande ```npm install``` à la place de Yarn si tu préfères. 
+    (Tu peux aussi utiliser la commande ```npm install``` à la place de Yarn si tu préfères) 
 
 1.  **Voir le site en local**
 
