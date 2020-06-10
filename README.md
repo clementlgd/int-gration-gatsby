@@ -1,4 +1,4 @@
-# Projet d'intégration Gatsby/React et Styled Component
+# Projet d'intégration Gatsby/React et Styled Component déployé sur Netlify
 
 ## 🚀 Pour voir le projet
 
