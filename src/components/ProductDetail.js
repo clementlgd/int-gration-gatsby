@@ -6,7 +6,7 @@ import loungeBig from "../images/lounge-big.png"
 import AddToCartButton from './AddToCartButton'
 import ProductCounter from './ProductCounter'
 import ProductColorSelector from './ProductColorSelector'
-import BackButton from './BackButton'
+// import BackButton from './BackButton'
 
 const Container = styled.div`
   height: 100vh;
@@ -106,7 +106,7 @@ class ProductDetail extends Component {
 	render() {
 		return (
 			<Container>
-				<BackButton path="/" />
+				{/* <BackButton path="/" /> */}
 				<ImageContainer>
 					<ProductImage src={loungeBig} />
 				</ImageContainer>
