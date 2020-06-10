@@ -1,6 +1,8 @@
 import React from "react"
 import styled from "styled-components"
 import { Link } from "gatsby"
+import TransitionLink from "gatsby-plugin-transition-link"
+import AniLink from "gatsby-plugin-transition-link/AniLink"
 
 import backArrow from "../images/arrow-left.svg"
 
@@ -28,11 +30,11 @@ const BackArrowImage = styled.img`
 `;
 
 const BackButton = ({ path }) => (
-  <Link to={path}>
+  <AniLink style={{textDecoration: "none"}} swipe direction="right" top="exit" duration={0.6} to={path}>
     <BackButtonContainer>
       <BackArrowImage src={backArrow} alt="Back Arrow"/>
     </BackButtonContainer>
-  </Link>
+  </AniLink>
 )
 
 export default BackButton

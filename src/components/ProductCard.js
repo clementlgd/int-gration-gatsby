@@ -1,6 +1,8 @@
 import React from "react"
 import styled from "styled-components"
 import { Link } from "gatsby"
+import TransitionLink from "gatsby-plugin-transition-link"
+import AniLink from "gatsby-plugin-transition-link/AniLink"
 
 const Container = styled.div`
   height: 230px;
@@ -63,7 +65,7 @@ const StyledLink = styled(Link)`
 
 const ProductCard = ({ bgColor, title, price, priceColor, imgPath }) => {
   return (
-    <StyledLink to="singleProduct">
+    <AniLink style={{textDecoration: "none"}} swipe direction="left" top="entry" duration={0.6} to="singleProduct">
       <Container bgColor={bgColor}>
         <ImageContainer>
           <Image src={imgPath} alt="product" />
@@ -73,7 +75,7 @@ const ProductCard = ({ bgColor, title, price, priceColor, imgPath }) => {
           <Price priceColor={priceColor}>{price}</Price>
         </InfoContainer>
       </Container>
-    </StyledLink>
+    </AniLink>
   )
 }
   
