@@ -40,6 +40,9 @@ const Price = styled.p`
 `;
 
 const ImageContainer = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
   flex: 2;
   margin-top: 35px;
 `;
@@ -55,7 +58,7 @@ const InfoContainer = styled.div`
 const Image = styled.img`
   width: 100%;
   @media (min-width: 700px) {
-    width: 120px;
+    width: 130px;
   }
 `;
 
