@@ -1,8 +1,8 @@
 # Projet d'intégration Gatsby/React et Styled Component
 
-## 🚀 Pour commencer
+## 🚀 Pour voir le projet
 
-1.  **Commencer à développer**
+1.  **Ouvrir le projet**
 
     Se rendre dans le répertoire du site.
 
@@ -17,4 +17,8 @@
 1.  **Voir le site en local**
 
     Le projet sera ensuite accessible à l'adresse suivante : `http://localhost:8000`!
+
+1.  **Voir le site déployé sur Netlify**
+
+    lien: `https://integration-gatsby-clementlgd.netlify.app/`
 

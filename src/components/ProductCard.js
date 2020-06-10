@@ -62,7 +62,6 @@ const StyledLink = styled(Link)`
 `;
 
 const ProductCard = ({ bgColor, title, price, priceColor, imgPath }) => {
-
   return (
     <StyledLink to="singleProduct">
       <Container bgColor={bgColor}>
