@@ -14,6 +14,13 @@ const Button = styled.a`
   border-radius: 15px 15px 0 0;
   text-decoration: none;
   height: 65px;
+  &:hover {
+    background: #d2d8f9;
+    transition: 0.4s;
+  }
+  @media (min-width: 700px) {
+		border-radius: 15px 15px 35px 35px;
+  }
 `;
 
 const Text = styled.p`

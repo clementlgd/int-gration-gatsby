@@ -30,6 +30,10 @@ const ListContent = styled.div`
   background-color: ${props => props.bgColor || "palevioletred"};
   position: relative;
   z-index: 5;
+  &:hover {
+    opacity: 0.7;
+    transition: 0.4s;
+  }
   &.active {
     border: 4px solid #AEB7D4;
     width: 22px;

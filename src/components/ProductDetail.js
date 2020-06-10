@@ -15,6 +15,9 @@ const Container = styled.div`
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	@media (min-width: 700px) {
+    flex-direction: row;
+  }
 `;
 
 const HorizontalContainer = styled.div`
@@ -22,6 +25,9 @@ const HorizontalContainer = styled.div`
   justify-content: space-between;
   align-items: center;
 	padding: 25px 25px 0 25px;
+	@media (min-width: 700px) {
+		padding: ${props => props.padding || "25px 25px 0 25px" };
+  }
 `;
 
 const ImageContainer = styled.div`
@@ -35,6 +41,9 @@ const ImageContainer = styled.div`
 const ProductImage = styled.img`
   width: 100%;
 	margin-top: 50px;
+	@media (min-width: 700px) {
+  	width: 350px;
+  }
 `;
 
 const InfoContainer = styled.div`
@@ -44,6 +53,11 @@ const InfoContainer = styled.div`
   height: 300px;
 	width: 100%;
   border-radius: 35px 35px 0 0;
+	@media (min-width: 700px) {
+  	margin-right: 50px;
+		height: 450px;
+		border-radius: 35px;
+  }
 `;
 
 const ProductTitle = styled.p`
@@ -103,7 +117,7 @@ class ProductDetail extends Component {
 					</HorizontalContainer>
 					<Category>Chairs</Category>
 					<Description>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard.</Description>		
-					<HorizontalContainer>
+					<HorizontalContainer padding="75px 25px 0 25px">
 						<ProductColorSelector />
 						<ProductCounter />
 					</HorizontalContainer>

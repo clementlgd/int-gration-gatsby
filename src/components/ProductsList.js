@@ -16,6 +16,11 @@ const Container = styled.div`
   margin: 20px 0 0 0;
   z-index: 2;
   align-self: center;
+  width: 100%;
+  @media (min-width: 700px) {
+    justify-content: center;
+    max-width: 1000px;
+  }
 `;
 
 const ProductList = () => {

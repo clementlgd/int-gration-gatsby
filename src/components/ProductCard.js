@@ -12,6 +12,11 @@ const Container = styled.div`
   background-color: ${props => props.bgColor || "palevioletred"};
   border-radius: 14px;
   margin-bottom: 20px;
+  @media (min-width: 700px) {
+    height: 300px;
+    width: 400px;
+    margin-right: 20px;
+  }
 `;
 
 const Title = styled.p`
@@ -47,6 +52,9 @@ const InfoContainer = styled.div`
 
 const Image = styled.img`
   width: 100%;
+  @media (min-width: 700px) {
+    width: 120px;
+  }
 `;
 
 const StyledLink = styled(Link)`

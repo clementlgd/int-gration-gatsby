@@ -23,7 +23,11 @@ const DisplayButton = styled.button`
   font-family: 'Rubik', sans-serif;
   font-weight: 400;
   font-size: 22px;
-  outline: none; 
+  outline: none;
+  &:hover {
+    background: #DADDF5;
+    transition: 0.4s;
+  } 
 `;
 
 class ProductCounter extends Component {
