@@ -18,6 +18,7 @@ const BackButtonContainer = styled.div`
 	&:hover {
     background: #DADDF5;
     transition: 0.4s;
+    
   }
 `;
 
