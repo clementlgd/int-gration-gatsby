@@ -66,7 +66,7 @@ const ProductCard = ({ bgColor, title, price, priceColor, imgPath }) => {
     <StyledLink to="singleProduct">
       <Container bgColor={bgColor}>
         <ImageContainer>
-          <Image src={imgPath} />
+          <Image src={imgPath} alt="product" />
         </ImageContainer>
         <InfoContainer>
           <Title>{title}</Title>

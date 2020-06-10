@@ -30,7 +30,7 @@ const BackArrowImage = styled.img`
 const BackButton = ({ path }) => (
   <Link to={path}>
     <BackButtonContainer>
-      <BackArrowImage src={backArrow}/>
+      <BackArrowImage src={backArrow} alt="Back Arrow"/>
     </BackButtonContainer>
   </Link>
 )

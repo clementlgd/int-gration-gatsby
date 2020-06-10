@@ -108,7 +108,7 @@ class ProductDetail extends Component {
 			<Container>
 				<BackButton path="/" />
 				<ImageContainer>
-					<ProductImage src={loungeBig} />
+					<ProductImage src={loungeBig} alt="product"/>
 				</ImageContainer>
 				<InfoContainer>
 					<HorizontalContainer>
