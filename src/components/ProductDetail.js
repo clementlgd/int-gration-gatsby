@@ -6,7 +6,7 @@ import loungeBig from "../images/lounge-big.png"
 import AddToCartButton from './AddToCartButton'
 import ProductCounter from './ProductCounter'
 import ProductColorSelector from './ProductColorSelector'
-import BackButton from './BackButton'
+import BackButton from './BackBtn'
 
 const Container = styled.div`
   height: 100vh;

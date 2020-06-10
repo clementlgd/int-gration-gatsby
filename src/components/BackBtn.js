@@ -15,10 +15,10 @@ const BackButtonContainer = styled.div`
 	position: absolute;
 	top: 40px;
   left: 30px;
+  transition: 0.4s;
 	&:hover {
     background: #DADDF5;
     transition: 0.4s;
-    
   }
 `;
 
