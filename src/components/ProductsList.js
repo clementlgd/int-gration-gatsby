@@ -12,7 +12,7 @@ const Container = styled.div`
   display: flex;
   flex-wrap: wrap;
   background-color: #fff;
-  justify-content: space-between;
+  justify-content: center;
   margin: 20px 0 0 0;
   z-index: 2;
   align-self: center;

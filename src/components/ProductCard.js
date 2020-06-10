@@ -7,7 +7,7 @@ const Container = styled.div`
   width: 140px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
   background-color: ${props => props.bgColor || "palevioletred"};
   border-radius: 14px;
